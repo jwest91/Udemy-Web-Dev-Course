@@ -27,7 +27,7 @@
 	<input type="Email" placeholder="your email" id="email" required>
 
 	<label for="password">Password:</label>
-	<input type="Password" placeholder="your password" id="password" minlength="5" maxlength="10" required>
+	<input type="Password" placeholder="your password" id="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
 
 	<br><label for="birthday">Birthday:</label>
 	<select name="Month">
